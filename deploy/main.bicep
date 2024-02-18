@@ -66,7 +66,7 @@ resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
   location: location
   properties: {
     serverFarmId: appServicePlan.id
-    httpsOnly: true
+    httpsOnly: false
     siteConfig: {
       alwaysOn: environmentConfigurationMap[environmentType].appServiceApp.alwaysOn
       appSettings: [
