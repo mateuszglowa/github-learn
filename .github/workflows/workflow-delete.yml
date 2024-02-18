@@ -1,4 +1,4 @@
-name: remote-toy-website-rg
+name: remove-toy-website-rg
 concurrency: toy-company
 
 on:
