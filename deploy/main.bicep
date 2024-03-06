@@ -92,4 +92,5 @@ resource toyManualsStorageAccount 'Microsoft.Storage/storageAccounts@2022-09-01'
 //     environmentConfigurationMap:, environmentType:, location:, toyManualsStorageAccountName:}
 // }
 
+output appServiceAppName string = appServiceApp.name
 output appServiceAppHostName string = appServiceApp.properties.defaultHostName
