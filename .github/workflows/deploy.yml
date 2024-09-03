@@ -94,7 +94,7 @@ jobs:
     environment: ${{ inputs.environmentType }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
       - uses: azure/login@v1
         name: Sign in to Azure
         with:
